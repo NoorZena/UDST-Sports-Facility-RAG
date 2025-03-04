@@ -4,15 +4,15 @@ import numpy as np
 import faiss
 from mistralai import Mistral
 from mistralai.models import UserMessage
+from mistralai.client import Mistral
 
-# Load Mistral API Key from environment
-API_KEY = os.getenv("MISTRAL_API_KEY")
-if not API_KEY:
+api_key = os.getenv("MISTRAL_API_KEY")
+if not api_key:
     st.error("⚠️ MISTRAL_API_KEY is missing! Set it in environment variables.")
     st.stop()
 
-# Initialize Mistral AI Client
-client = Mistral(api_key=API_KEY)
+client = Mistral(api_key=api_key)
+
 
 # Function to generate embeddings using Mistral
 def get_text_embedding(text):
