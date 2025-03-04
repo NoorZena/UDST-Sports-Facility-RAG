@@ -1,4 +1,6 @@
 streamlit
-mistralai
+requests
+beautifulsoup4
 faiss-cpu
+mistralai
 numpy
