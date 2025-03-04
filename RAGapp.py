@@ -6,7 +6,7 @@ from mistralai import Mistral
 from mistralai.models import UserMessage
 
 # Load Mistral API Key from environment
-API_KEY = os.getenv("MISTRAL_API_KEY")
+API_KEY = os.getenv("hFS71eF2NzuvFCBQ00AMtrcaqUsqxX89Y")
 if not API_KEY:
     st.error("⚠️ MISTRAL_API_KEY is missing! Set it in environment variables.")
     st.stop()
