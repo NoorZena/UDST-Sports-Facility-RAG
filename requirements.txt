@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.2
+requests==2.31.0
+numpy==1.26.4
+faiss-cpu==1.7.4
+mistralai==0.0.7
