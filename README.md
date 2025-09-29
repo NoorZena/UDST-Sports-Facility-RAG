@@ -1,16 +1,16 @@
-# 🏆 Sports Facility RAG using Mistral AI
+#  Sports Facility RAG using Mistral AI
 
 A Retrieval-Augmented Generation (RAG) pipeline for querying sports facility details using web scraping, FAISS for embeddings storage, and Mistral AI for generating responses.
 
-## 📌 Features
+##  Features
 
-- 🏟 **Web Scraping**: Extracts UDST Sports Facility data using `BeautifulSoup`
-- 🧠 **Mistral AI Embeddings**: Converts facility descriptions into vector embeddings
-- ⚡ **FAISS Vector Search**: Stores embeddings for efficient retrieval
-- 🤖 **AI-Powered Querying**: Allows users to ask **natural language questions** about facilities
-- 📜 **Automated Text Generation**: Retrieves relevant information and generates an answer using Mistral LLM
+-  **Web Scraping**: Extracts UDST Sports Facility data using `BeautifulSoup`
+-  **Mistral AI Embeddings**: Converts facility descriptions into vector embeddings
+- = **FAISS Vector Search**: Stores embeddings for efficient retrieval
+-  **AI-Powered Querying**: Allows users to ask **natural language questions** about facilities
+-  **Automated Text Generation**: Retrieves relevant information and generates an answer using Mistral LLM
 
-## 🚀 Installation
+##  Installation
 
 1️⃣ Clone the Repository
 git clone https://github.com/YOUR_USERNAME/Sports-Facility-RAG.git
